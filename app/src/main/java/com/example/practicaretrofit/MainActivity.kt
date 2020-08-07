@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         //establecer el adapter -> recyclerView
         recyclerView.adapter=DataAdapter(dataList,this)
         recyclerView.layoutManager=LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
+        getData()
 
 
     }
